@@ -10,7 +10,7 @@ public class MercadoPromocao5Porcento {
 
         String[] frutasEmPromocao = concedeDesconto(frutasDoDiaEmPromocao, scanner);
 
-        System.out.println("Você comprou as seguintes frutas em promoção: " + Arrays.toString(frutasEmPromocao));
+        System.out.println("Você comprou essas frutas em promoção: " + Arrays.toString(frutasEmPromocao));
         System.out.println("Portanto, receberá um desconto de " + frutasEmPromocao.length * 5 + "%.");
 
     }
